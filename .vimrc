@@ -28,6 +28,7 @@ au BufRead,BufNewFile *.json set ft=javascript
 syntax enable
 "set background=light
 set background=dark
+let g:solarized_termcolors=256
 colorscheme solarized
 "map <C-s> set paste
 " Tell vim to remember certain things when we exit
