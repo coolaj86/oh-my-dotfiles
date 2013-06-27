@@ -17,10 +17,10 @@ set number
 au BufRead,BufNewFile *.json set ft=javascript
 
 
-set rtp+=/Users/coolaj86/Code/go/misc/vim
-filetype plugin indent on
+"set rtp+=/Users/coolaj86/Code/go/misc/vim
+"filetype plugin indent on
 
-" Open NerdTree when Vim starts
+"Open NerdTree when Vim starts
 "au VimEnter * NERDTree
 "au VimEnter * wincmd p
 
