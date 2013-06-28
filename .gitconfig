@@ -1,7 +1,7 @@
 [user]
-	name = Ryan Burnette
-	email = ryan.burnette@gmail.com
+  name = Ryan Burnette
+  email = ryan.burnette@gmail.com
 [diff]
   color = auto
 [color]
-	status = auto
+  status = auto
