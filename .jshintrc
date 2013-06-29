@@ -4,6 +4,7 @@
 , "browser": true
 , "jquery": true
 
+, "index": 2
 , "onevar": true
 , "laxcomma": true
 , "laxbreak": true
