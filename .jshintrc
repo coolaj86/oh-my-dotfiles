@@ -3,6 +3,7 @@
 , "browser": true
 , "jquery": true
 
+, "indent": 2
 , "onevar": true
 , "laxcomma": true
 , "laxbreak": true
