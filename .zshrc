@@ -10,6 +10,7 @@ ZSH_THEME="af-magic"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias c="cd ~;clear"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
