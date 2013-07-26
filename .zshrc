@@ -45,8 +45,5 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-# OLD PATH
-#export PATH=$PATH:/usr/local/opt/ruby/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.3/bin:/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
+# PATH
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
-# installed git into a weird path, whatever
-export PATH=/usr/local/git/usr/local/bin:$PATH
