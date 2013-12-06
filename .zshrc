@@ -2,7 +2,7 @@
 ZSH=$HOME/.oh-my-zsh
 
 # Oh-my-zsh theme
-ZSH_THEME="af-magic"
+ZSH_THEME="ys"
 
 # Aliases
 alias c="cd ~;clear"
