@@ -6,6 +6,7 @@ ZSH_THEME="ys"
 
 # Aliases
 alias c="cd ~;clear"
+alias s="screen -ls"
 
 # Oh-my-zsh plugins
 plugins=(git)
