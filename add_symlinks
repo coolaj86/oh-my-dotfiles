@@ -1,0 +1,10 @@
+#! /bin/bash
+export HOME
+cwd=$(pwd)
+
+ln -s $cwd/.gemrc $HOME/.gemrc
+ln -s $cwd/.gitconfig $HOME/.gitconfig
+ln -s $cwd/.gitignore_global $HOME/.gitignore_global
+ln -s $cwd/.jshintrc $HOME/.jshintrc
+ln -s $cwd/.vimrc $HOME/.vimrc
+ln -s $cwd/.zshrc_ryan $HOME/.zshrc_ryan
