@@ -1,3 +1,7 @@
+" syntastic doesn't like fish
+" https://github.com/scrooloose/syntastic/issues/803
+set shell=bash
+
 call pathogen#infect()
 syntax on
 
@@ -15,6 +19,7 @@ set number
 
 " .json files are javascript
 au BufRead,BufNewFile *.json set ft=javascript
+au BufNewFile,BufRead manifest.webapp set filetype=javascript
 
 
 set rtp+=/Users/coolaj86/Code/go/misc/vim
@@ -26,8 +31,8 @@ filetype plugin indent on
 
 
 syntax enable
-"set background=light
-set background=dark
+set background=light
+"set background=dark
 colorscheme solarized
 "map <C-s> set paste
 " Tell vim to remember certain things when we exit
