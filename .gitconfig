@@ -5,3 +5,5 @@
   color = auto
 [color]
   status = auto
+[push]
+	default = matching
