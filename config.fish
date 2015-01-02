@@ -1,9 +1,6 @@
-# Oh-my-zsh theme
-ZSH_THEME="ys"
-
 # Aliases
+alias l="ls -all"
 alias c="cd ~;clear"
-alias s="screen -ls"
 
 # Whois aliases
 alias apnic='whois -h whois.apnic.net'
