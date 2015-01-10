@@ -1,2 +1,2 @@
-# http://stackoverflow.com/a/1386014
 gem: --no-document
+#gemhome: /var/lib/gems
