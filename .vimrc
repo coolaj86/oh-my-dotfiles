@@ -13,30 +13,13 @@ set scrolljump=10
 set scrolloff=7
 set number
 
-" .json files are javascript
 au BufRead,BufNewFile *.json set ft=javascript
 
-
-"set rtp+=/Users/coolaj86/Code/go/misc/vim
-"filetype plugin indent on
-
-"Open NerdTree when Vim starts
-"au VimEnter * NERDTree
-"au VimEnter * wincmd p
-
-
 syntax enable
-"set background=light
 set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
-"map <C-s> set paste
-" Tell vim to remember certain things when we exit
-"  '100 :  marks will be remembered for up to 10 previously edited files
-"  "1000:  will save up to 100 lines for each register
-"  :200 :  up to 20 lines of command-line history will be remembered
-"  %    :  saves and restores the buffer list
-"  n... :  where to save the viminfo files
+
 set viminfo='100,\"1000,:200,%,n~/.viminfo
 
 function! ResCur()
@@ -50,3 +33,6 @@ augroup resCur
   autocmd!
   autocmd BufWinEnter * call ResCur()
 augroup END
+
+let g:ctrlp_show_hidden = 1
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|bower_components'
