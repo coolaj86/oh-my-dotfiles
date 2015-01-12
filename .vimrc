@@ -22,6 +22,8 @@ colorscheme solarized
 
 set viminfo='100,\"1000,:200,%,n~/.viminfo
 
+let &colorcolumn=join(range(81,999),",")
+
 function! ResCur()
   if line("'\"") <= line("$")
     normal! g`"
