@@ -6,4 +6,4 @@
 [color]
   status = auto
 [push]
-	default = matching
+  default = matching
