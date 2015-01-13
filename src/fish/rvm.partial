@@ -1,0 +1,2 @@
+#rvm
+set -gx PATH $HOME/.rvm/bin $PATH
