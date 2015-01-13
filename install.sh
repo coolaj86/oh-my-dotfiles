@@ -13,8 +13,8 @@ ln -sf $cwd/.gitignore_global $HOME/.gitignore_global
 ln -sf $cwd/.vimrc $HOME/.vimrc
 mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 mkdir -p $HOME/.vim/bundle
-./git.sh git://github.com/altercation/vim-colors-solarized.git $HOME/.vim/bundle/vim-colors-solarized
-./git.sh https://github.com/kien/ctrlp.vim.git $HOME/.vim/bundle/ctrlp.vim
+./git.sh https://github.com/altercation/vim-colors-solarized $HOME/.vim/bundle/vim-colors-solarized
+./git.sh https://github.com/kien/ctrlp.vim $HOME/.vim/bundle/ctrlp.vim
 ./git.sh https://github.com/Lokaltog/vim-easymotion $HOME/.vim/bundle/vim-easymotion
 ./git.sh https://github.com/slim-template/vim-slim $HOME/.vim/bundle/vim-slim
 
