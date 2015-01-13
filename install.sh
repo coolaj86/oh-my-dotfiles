@@ -20,7 +20,10 @@ mkdir -p $HOME/.vim/bundle
 
 # bash
 ./make-bashrc.sh
-ln -sf $cwd/.bashrc $HOME/.bashrc
+ln -sf $cwd/.bashrc $HOME/.bashrc_ryan
+if ! grep -qe "^. ~/.bashrc_ryan$" "$HOME/.bashrc"; then
+  echo ". ~/.bashrc_ryan" >> $HOME/.bashrc
+fi
 
 # fish
 mkdir -p $HOME/.config/fish
