@@ -1,0 +1,4 @@
+# Aliases
+alias l="ls -all"
+alias c="cd ~;clear"
+alias rs="bundle exec rails server --binding=0.0.0.0"

@@ -1,0 +1,9 @@
+[user]
+	name = AJ ONeal
+	email = awesome@coolaj86.com
+[diff]
+ 	color = auto
+[color]
+	status = auto
+[push]
+	default = simple
