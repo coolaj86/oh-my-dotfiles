@@ -21,10 +21,10 @@ hwd=${cwd}/${HANDLE}
 omd_bashrc() {
   rm -f .bashrc_omd
   touch .bashrc_omd
-  for file in ${HANDLE}/shell-addins/all/*.partial; do
+  for file in ${HANDLE}/shell-mixins/all/*.partial; do
     cat $file >> .bashrc_omd
   done
-  for file in ${HANDLE}/shell-addins/bash/*.partial; do
+  for file in ${HANDLE}/shell-mixins/bash/*.partial; do
     cat $file >> .bashrc_omd
   done
 
@@ -38,10 +38,10 @@ omd_fishconfig() {
   mkdir -p .config/fish/
   rm -f .config/fish/config.fish
   touch .config/fish/config.fish
-  for file in ${HANDLE}/shell-addins/all/*.partial; do
+  for file in ${HANDLE}/shell-mixins/all/*.partial; do
     cat $file >> .config/fish/config.fish
   done
-  for file in ${HANDLE}/shell-addins/fish/*.partial; do
+  for file in ${HANDLE}/shell-mixins/fish/*.partial; do
     cat $file >> .config/fish/config.fish
   done
 }
