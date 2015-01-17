@@ -1,8 +1,8 @@
 [user]
-	name = AJ ONeal
-	email = awesome@coolaj86.com
+	name = John Doe
+	email = john.doe@gmail.com
 [diff]
-  color = auto
+ 	color = auto
 [color]
 	status = auto
 [push]
