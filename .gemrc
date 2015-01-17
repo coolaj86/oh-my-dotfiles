@@ -1,1 +1,2 @@
-gem: --no-rdoc --no-ri
+gem: --no-rdoc --no-ri --no-document
+#gemhome: /var/lib/gems

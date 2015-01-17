@@ -17,22 +17,14 @@ set scrolljump=10
 set scrolloff=7
 set number
 
-" .json files are javascript
+" .json files should use javascript syntax
 au BufRead,BufNewFile *.json set ft=javascript
 au BufNewFile,BufRead manifest.webapp set filetype=javascript
-
-
-set rtp+=/Users/coolaj86/Code/go/misc/vim
-filetype plugin indent on
-
-" Open NerdTree when Vim starts
-"au VimEnter * NERDTree
-"au VimEnter * wincmd p
-
 
 syntax enable
 set background=light
 "set background=dark
+let g:solarized_termcolors=256
 colorscheme solarized
 "map <C-s> set paste
 " Tell vim to remember certain things when we exit
@@ -42,6 +34,8 @@ colorscheme solarized
 "  %    :  saves and restores the buffer list
 "  n... :  where to save the viminfo files
 set viminfo='100,\"2500,:200,%,n~/.viminfo
+
+let &colorcolumn=join(range(81,999),",")
 
 function! ResCur()
   if line("'\"") <= line("$")
@@ -54,3 +48,6 @@ augroup resCur
   autocmd!
   autocmd BufWinEnter * call ResCur()
 augroup END
+
+let g:ctrlp_show_hidden = 1
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|bower_components\|.sass-cache'
