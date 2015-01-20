@@ -95,6 +95,7 @@ omd_vim
 
 # bash
 omd_bashrc
+touch ${HOME}/.bashrc
 omd_link '.bashrc_omd'
 
 # fish
