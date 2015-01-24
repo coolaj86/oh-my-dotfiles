@@ -35,3 +35,8 @@ What's included?
 ```
 
 Mixins are added to `.bashrc_omd` and then sourced in the default `~/.bashrc` (which we don't touch).
+
+Who's to blame?
+=====
+
+This was 110% AJ's idea and 110% his work with absolutley no help from Ryan Burnette, [not even a single commit](https://github.com/coolaj86/oh-my-dotfiles/commits?author=ryanburnette).
